@@ -1,20 +1,29 @@
-EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification
+# 🌍 EuroSAT RGB Dataset  
+_A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification_
 
-EuroSAT is a land use and land cover classification dataset. The dataset is based on Sentinel-2 satellite imagery covering 13 spectral bands and consists of 10 LULC classes with a total of 27,000 labeled and geo-referenced images. The dataset is associated with the publications "Introducing EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification" and "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification".
+EuroSAT is a land use and land cover (LULC) classification dataset based on Sentinel-2 satellite imagery. It contains 27,000 labeled and geo-referenced images distributed across **10 distinct classes**, making it ideal for training deep learning models in remote sensing and land cover classification tasks.
 
-EuroSAT_RGB contains the RGB version of the dataset, which includes the optical R, G and B frequency bands encoded as JPEG images.
+## 📦 Dataset Overview
 
-This dataset contains 27,000 RGB Satellite Images across 10 classes:
+- **Source**: Sentinel-2 Satellite (13 spectral bands)
+- **Version**: This repository contains the **RGB version** with only the R, G, and B frequency bands
+- **Format**: JPEG images
+- **Total Images**: 27,000
+- **Image Size**: 64x64 pixels (standard resizing used in many CNN-based studies)
+- **Classes** (≈2,500 images per class):
+  - Annual Crop  
+  - Forest  
+  - Herbaceous Vegetation  
+  - Highway  
+  - Industrial  
+  - Pasture  
+  - Permanent Crop  
+  - Residential  
+  - River  
+  - Sea or Lake  
 
-Annual Crop
-Forest
-Herbaceous Vegetation
-Highway
-Industrial
-Pasture
-Permanent Crop
-Residential
-River
-Sea or Lake
+## 📂 Folder Structure
 
-There are about 2,500 images per class.
+The dataset is organized into class-specific subfolders:
+
+EuroSAT_RGB/ ├── AnnualCrop/ ├── Forest/ ├── HerbaceousVegetation/ ├── Highway/ ├── Industrial/ ├── Pasture/ ├── PermanentCrop/ ├── Residential/ ├── River/ └── SeaLake/
