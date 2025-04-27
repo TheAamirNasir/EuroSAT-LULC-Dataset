@@ -22,8 +22,9 @@ EuroSAT is a land use and land cover (LULC) classification dataset based on Sent
   - River  
   - Sea or Lake  
 
-## 📂 Folder Structure
+## 📂 Repository Structure
 
 The dataset is organized into class-specific subfolders:
 
-EuroSAT_RGB/ ├── AnnualCrop/ ├── Forest/ ├── HerbaceousVegetation/ ├── Highway/ ├── Industrial/ ├── Pasture/ ├── PermanentCrop/ ├── Residential/ ├── River/ └── SeaLake/
+├── [EuroSAT_RGB](https://github.com/TheAamirNasir/EuroSAT-LULC-Dataset/tree/master/EuroSAT_RGB)<br>
+├── [README.md](https://github.com/TheAamirNasir/EuroSAT-LULC-Dataset)<br>
